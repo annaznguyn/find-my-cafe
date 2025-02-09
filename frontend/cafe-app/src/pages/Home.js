@@ -14,7 +14,7 @@ function Home() {
 
         console.log(address);
 
-        const res = await fetch("http://localhost:4000/", {
+        const res = await fetch("http://localhost:4000/api/", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
